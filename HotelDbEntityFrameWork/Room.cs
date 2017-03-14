@@ -25,5 +25,10 @@ namespace HotelDbEntityFrameWork
         public double? Price { get; set; }
 
         public virtual Hotel Hotel { get; set; }
+
+        public override string ToString()
+        {
+            return $"Type: {Types}, Price: {Price}, Hotel Nr: {Hotel_No}";
+        }
     }
 }
