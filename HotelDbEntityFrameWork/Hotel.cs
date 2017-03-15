@@ -32,7 +32,7 @@ namespace HotelDbEntityFrameWork
 
         public override string ToString()
         {
-            return $"Name: {Name}, Address: {Address}, Hotel No: {Hotel_No}";
+            return $"Name: {Name}, Address: {Address}";
         }
     }
 }

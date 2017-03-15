@@ -28,7 +28,7 @@ namespace HotelDbEntityFrameWork
 
         public override string ToString()
         {
-            return $"Type: {Types}, Price: {Price}, Hotel Nr: {Hotel_No}";
+            return $"Type: {Types}, Price: {Price}";
         }
     }
 }
